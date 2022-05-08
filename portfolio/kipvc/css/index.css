@@ -140,11 +140,10 @@ a {
    overflow-y: hidden;
 }*/
 .found {
-    width: 25%;
+    width: 30%;
     float: left;
     text-align: center;
-    margin-left: 49px;
-    padding-left: 19px;
+    margin-left: 20px;
 }
 .found p {
    color:#fff;
@@ -310,12 +309,14 @@ a {
     width: 70%;
     margin: 0 auto;
     text-align: center;
-    font-size: 0.2em;
-    line-height: 3rem;
+    font-size: 0.8em;
+    line-height: 4rem;
    }
    .counterbox {
     width: 90%;
-    margin: auto;
+    padding: 0;
+    margin: 0;
+    float: none;
       /*overflow-y: hidden;*/
    }
    .found {
@@ -514,9 +515,9 @@ a {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    font-size: 0.25em;
+    font-size: 0.8em;
     margin-top: 30px;
-    line-height: 3rem;
+    line-height: 4rem;
    }
    .counterbox {
     width: 90%;
@@ -524,7 +525,7 @@ a {
       /*overflow-y: hidden;*/
    }
    .found {
-    width: 25%;
+    width: 30%;
     float: left;
     font-size: x-small;
    }
@@ -657,8 +658,8 @@ a {
     width: 90%;
     margin: 0 auto 20px;
     text-align: center;
-    font-size: 0.5em;
-    line-height: 3rem;
+    font-size: 0.8em;
+    line-height: 4rem;
    }
    .counterbox {
     width: 80%;
@@ -666,7 +667,7 @@ a {
       /*overflow-y: hidden;*/
    }
    .found {
-    width: 25%;
+    width: 30%;
     float: left;
     font-size: small;
    }
@@ -833,8 +834,8 @@ a {
     width: 90%;
     margin: 0 auto 20px;
     text-align: center;
-    font-size: 0.6em;
-    line-height: 3rem;
+    font-size: 0.8em;
+    line-height: 4rem;
    }
    .counterbox {
     width: 60%;
