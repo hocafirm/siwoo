@@ -1,0 +1,3406 @@
+
+a p {
+	color:#333;
+}
+.companyimgbox img {
+	cursor: pointer;
+}
+
+.teambox > img{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.teambox2 > img{
+	display: block;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+
+.logo_imggg{
+	width: 65%;
+}
+
+.logo_divv{
+	width: 100%;
+	overflow: hidden;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+/*모바일*/
+ /*767px보다 작은사이즈*/
+@media (max-width:767px){
+	.subwrap {
+		width: 100%;
+	}
+	.subwrap2 {
+		width: 100%;
+		background-color: #f7f7f7;
+	}
+	.subbanner {
+		width: 100%;
+		margin: 0 auto;
+		/*height: 720px;*/
+		padding-bottom: 70px;
+		background-image: url('../images/subbanner1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext {
+		width: 100%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 2.5em;
+		width: 90%;
+		line-height: 1.2em;
+		text-align: center;
+		margin: 80px auto 50px;
+	}
+	.subbannertext p {
+		color:#fff;
+		width: 85%;
+		margin: 0 auto;
+		font-size:0.9em;
+		text-align: center;
+		font-weight: 300;
+	}
+
+
+	.subcontent {
+		width: 90%;
+		margin: 30px auto 5px;
+		overflow-y: hidden;
+	}
+	.companybox {
+		width: 44%;
+		float: left;
+		/* border: 1px solid #ccc; */
+		box-sizing: border-box;
+		border-radius: 10px;
+		overflow-y: hidden;
+		margin: 0 3%;
+		margin-bottom: 30px;
+		display: none;
+	}
+	.companyimgbox {
+		width: 100%;
+		overflow-y: hidden;
+		float: left;
+		display: none;
+	}
+	.companyimgbox img {
+		float: left;
+		width: 100%;
+	}
+
+	.com_img{
+		height:14vw;
+	}
+
+	.companytextbox {
+		width: 100%;
+		background-color: #f7f7f7;
+		padding: 15px 0;
+		text-align: center;
+		overflow-y: hidden;
+		border-top: 1px solid #ccc;
+		height: 15vw;
+	}
+	.companytextbox p {
+		text-align: center;
+		font-size: 15px;
+	}
+	.companytextbox .textuuu {
+		text-align: center;
+		font-size: 11px;
+		opacity: 0.8;
+		font-weight: 300;
+		padding-top: 10px;
+	}
+
+	/*team*/
+	.subbanner2 {
+		width: 100%;
+		margin: 0 auto;
+		height: 520px;
+		background-image: url('../images/subbanner2.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext2 {
+		width: 80%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext2 h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 2.5em;
+		line-height: 1.2em;
+		width: 90%;
+		text-align: center;
+		margin: 40px auto 80px;
+	}
+	.teamlist {
+		width: 80%;
+		margin:0 auto;
+		overflow-y: hidden;
+		text-align: center;
+		color:#fff;
+	}
+	.teamlist li {
+		text-align: center;
+		display: inline-block;
+		/*width:48%;*/
+		padding: 0 4%;
+		height: 40px;
+		font-size: 13px;
+	}
+	.teamlist li a {
+		color:#fff;
+	}
+	.teamlist li > a:hover {
+		border-bottom: 3px solid #fff;
+		/*text-decoration: underline;/*/
+	}
+	.ceo {
+		width: 100%;
+		margin: 0 auto 40px;
+		overflow: hidden;
+	}
+	.ceo h2 {
+		text-align: left;
+		width: 90%;
+		color:#333;
+		font-size: 18px;
+		font-weight: 600;
+		/*background-color: #659ad2;*/
+		overflow-y: hidden;
+		/*padding: 8px 8px;*/
+		/*border-radius: 40px 40px;*/
+		margin-bottom: 20px;
+		margin-left: 4%;
+	}
+	.teambox {
+		width: 44%;
+		/* float: left; */
+		display: inline-block;
+		margin: 0 2%;
+		margin-bottom: 0px;
+	}
+	.peoplebox {
+		width: 270px;
+		height: 270px;
+		margin-bottom: 10px;
+		/* border-radius: 100%; */
+		/* overflow: hidden; */
+		/* margin: 50px auto 30px; */
+	}
+	.peoplebox img {
+		margin: 0 auto;
+	}
+
+    	.peoplebox3 {
+		width: 270px;
+		height:270px;
+		margin: 50px auto 30px;
+	}
+	.peoplebox3 img {
+		margin: 0 auto;
+	}
+	.peopletextbox{
+		width: 90%;
+		margin: 0 auto 40px;
+		text-align: center;
+	}
+	.name {
+		font-size: 12px;
+		color:#659ad2;
+		margin-bottom: 5px;
+	}
+	.name2 {
+		color:#333;
+		font-size: 10px;
+		display: block;
+		margin-bottom: 5px;
+	}
+	.name3 {
+		opacity: 0.7;
+		display: block;
+		font-size: 14px;
+		color:#333;
+	}
+
+
+	/*investor*/
+	.investor {
+		width: 60%;
+		margin: 0 auto;
+	}
+	.investor h1 {
+		text-align: center;
+		padding: 60px 0;
+		font-weight:400;
+		font-size: 1.5em;
+		opacity: 0.8;
+		overflow-y: hidden;
+	}
+
+	/*contact*/
+	.subbanner3 {
+		width: 100%;
+		margin: 0 auto;
+		/*height: 720px;*/
+		background-image: url('../images/subbanner3.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext3 {
+		width: 80%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext3 h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 2.5em;
+		line-height: 1.2em;
+		width: 90%;
+		text-align: center;
+		margin: 80px auto 80px;
+	}
+
+	.seoul {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		/*background-image:url('../images/contactbg1.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center right;*/
+		background-color: #fff;
+	}
+	.seoulbgbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.seoultextbox {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 20px 0;
+	}
+	.seoultextbox h1 {
+		padding-bottom: 12px;
+		font-size: 1.5em;
+	}
+	.seoultextbox p {
+		font-size: 1em;
+		font-weight: 300;
+	}
+	.shanghai {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		/*background-image:url('../images/contactbg2.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center right;*/
+		background-color: #fff;
+	}
+	.shanghaibox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.shanghaitextbox {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.shanghaitextbox h1 {
+		padding-bottom: 12px;
+		font-size: 1.5em;
+	}
+	.shanghaitextbox p {
+		font-size: 1em;
+		font-weight: 300;
+	}
+	.bejing {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		/*background-image:url('../images/contactbg3.png');
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-position: center right;*/
+		background-color: #fff;
+	}
+	.bejingbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.bejingtextbox {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 20px 0;
+	}
+	.bejingtextbox h1 {
+		padding-bottom: 12px;
+		font-size: 1.5em;
+	}
+	.bejingtextbox p {
+		font-size: 1em;
+		font-weight: 300;
+	}
+	.sunnyvale {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		/*background-image:url('../images/contactbg4.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center right;*/
+		background-color: #fff;
+	}
+	.sunnyvalebox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.sunnyvaletextbox {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 20px 0;
+	}
+	.sunnyvaletextbox h1 {
+		padding-bottom: 12px;
+		font-size: 1.5em;
+	}
+	.sunnyvaletextbox p {
+		font-size: 1em;
+		font-weight: 300;
+	}
+
+
+    .chengdu {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		/*background-image:url('../images/contactbg4.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center right;*/
+		background-color: #fff;
+	}
+	.chengdubox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.chengdutextbox {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 20px 0;
+	}
+	.chengdutextbox h1 {
+		padding-bottom: 12px;
+		font-size: 1.5em;
+	}
+	.chengdutextbox p {
+		font-size: 1em;
+		font-weight: 300;
+	}
+
+
+	footer {
+		width: 100%;
+		margin: 0 auto;
+		background-color: #212121;
+	}
+	footer p {
+		color:#fff;
+		opacity: 0.7;
+		font-size: 11px;
+		font-weight: 300;
+		text-align: center;
+		padding: 25px 0;
+		overflow-y:hidden;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.teambox2 {
+		width: 100%;
+		overflow: hidden;
+	}
+	.peoplebox2 {
+		width: 112px;
+		height: 112px;
+		border-radius: 100%;
+		overflow: hidden;
+		margin: 50px auto 30px;
+	}
+	.peoplebox2 img {
+		margin: 0 auto;
+	}
+	.peopletextbox2{
+		width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+	}
+
+	/*investor*/
+	.subbanner4 {
+		width: 100%;
+		margin: 0 auto;
+		/*height: 720px;*/
+		background-image: url('../images/subbanner4_1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext4 {
+		width: 80%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext4 h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 2.5em;
+		line-height: 1.2em;
+		width: 90%;
+		text-align: center;
+		margin: 80px auto 80px;
+	}
+
+	.mediabox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		border-bottom: 1px solid #ccc;
+	}
+	.mediainnder {
+		width:94%;
+		margin: 0 auto 30px;
+		overflow-y: hidden;
+	}
+	.mediaimgbox {
+		float: left;
+		margin-right: 20px;
+		width: 100%;
+		height: auto;
+	}
+	.mediaimgbox img {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.mediatextbox {
+		width: 100%;
+		float: left;
+	}
+	.mediatextbox h1 {
+		width: 100%;
+		font-size: 18px;
+		font-weight: 500;
+		padding-bottom: 10px;
+		color:#333;
+	}
+	.mediatextbox p {
+		padding-bottom: 10px;
+		color:#333;
+		width: 100%;
+	}
+	.mediatextbox a:hover {
+		text-decoration: underline;
+	}
+	.mediadate {
+		float: right;
+		font-size: 15px;
+		opacity: 0.7;
+		display: block;
+		padding-bottom: 25px;
+	}
+	.motrebtnbox {
+		width: 70px;
+		float: right;
+	}
+	.morebtn {
+		width: 70px;
+		height: 35px;
+		float: right;
+		border: 0;
+		background-color: #fff;
+		border: 1px solid #333;
+		font-size: 15px;
+		text-align: center;
+		cursor: pointer;
+		appearance:none;
+		-webkit-appearance:none;
+	}
+	.number {
+		width: 100%;
+		margin: 20px auto 20px;
+		text-align: center;
+	}
+	.number li {
+		text-align: center;
+		display: inline-block;
+		color:#fff;
+		font-size: 15px;
+	}
+	.number li a {
+		color:#333;
+	}
+	.number li a:hover {
+		text-decoration: underline;
+	}
+
+	/*미디어 상세보기*/
+	.mediabox2 {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.mediatitlebox {
+		width: 100%;
+		border-top: 3px solid #659ad2;
+		border-bottom: 1px solid #ccc;
+		overflow-y: hidden;
+		padding: 10px 0;
+	}
+	.mediatitlebox h1 {
+		font-size: 18px;
+		text-align: center;
+		width: 94%;
+		font-weight: 500;
+		margin: 0 auto;
+	}
+	.mmmmmbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		border-bottom: 1px solid #ccc;
+	}
+	.mediacontentbox {
+		width: 94%;
+		margin: 30px auto;
+		overflow-y: hidden;
+	}
+	.mediacontentimgbox {
+		width: 100%;
+		margin: 0 auto 20px;
+		overflow-y: hidden;
+	}
+	.mediacontentimgbox img {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.mediacontenttextbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.mediacontenttextbox p {
+		font-size: 16px;
+		opacity: 0.8;
+	}
+	.post {
+		width: 94%;
+		margin: 0 auto;
+	}
+	.post p {
+		font-size: 16px;
+		font-weight: 500;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.postimgbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		display: none;
+	}
+	.postimgbox img {
+		float: left;
+		margin: 0 6px;
+		width: 23%;
+	}
+	.medialistbtnbox {
+		/*width: 70px;*/
+		/*float: right;*/
+		overflow-y: hidden;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.medialistbtn {
+		width: 70px;
+		height: 35px;
+		float: right;
+		border: 0;
+		background-color: #fff;
+		border: 1px solid #333;
+		font-size: 15px;
+		text-align: center;
+		cursor: pointer;
+		appearance:none;
+		-webkit-appearance:none;
+	}
+
+	.mpost {
+		width: 100%;
+		margin: 0 auto 25px;
+	}
+	.mpostbox1 {
+		width: 100%;
+		margin: 0 auto 10px;
+		overflow-y: hidden;
+	}
+	.mpostlistbox {
+		width: 30%;
+		float: left;
+	}
+	.mpostbox1 img {
+		float: left;
+		width: 100%;
+	}
+	.mposttextlistbox {
+		width: 65%;
+		float: right;
+	}
+	.mposttextlistbox h1 {
+		font-size: 14px;
+		text-align: left;
+		width: 100%;
+		overflow: hidden;
+		font-weight: 500;
+		text-overflow: ellipsis;
+		display:-webkit-box;
+		-webkit-line-clamp:1;
+		-webkit-box-orient:vertical;
+		word-wrap:break-word;
+		line-height:22px;
+		height:22px;
+	}
+	.mposttextlistbox p {
+		font-size: 13px;
+		font-weight: 400;
+		opacity: 0.8;
+		text-align: left;
+		width: 100%;
+		height: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display:-webkit-box;
+		-webkit-line-clamp:1;
+		-webkit-box-orient:vertical;
+		word-wrap:break-word;
+		line-height:20px;
+		height:0;
+	}
+
+
+	.companybox2 {
+		width: 48%;
+		float: left;
+    border: 1px solid #ccc;
+		border-radius: 10px;
+		overflow: hidden;
+		margin: 0 1%;
+		margin-bottom:30px;
+    box-sizing: border-box;
+		cursor: pointer;
+		height: 30vw;
+		display: table;
+	}
+
+	.long_txttt{
+		width: 100%;
+		margin: 0 auto;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.logodiv_none{
+		display: none !important;
+	}
+
+	.logodiv_block{
+		display: table-cell !important;
+	}
+
+
+	.roungbox1, .roungbox2, .roungbox3, .roungbox4, .roungbox5 {
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		border-radius: 10px;
+		overflow-y: hidden;
+		width: 100%;
+		margin: 0 auto;
+		padding: 50px 0;
+		z-index: 9;
+		position:relative;
+	}
+	.roundimgboxinnder {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.roundimgboxinnder img {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+
+
+	.companyover, .companyover2, .companyover3, .companyover4, .companyover5 {
+		width: 100%;
+		float:left;
+		margin-bottom: 25px;
+		position: absolute;
+		z-index: 999;
+		/* display: none; */
+		cursor: pointer;
+		top: 72%
+	}
+	.overbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		background: #fff;
+		position: relative;
+		/* border: 1px solid #ccc; */
+		box-sizing: border-box;
+		border-radius: 10px;
+		top: -109px;
+		/* display: none; */
+	}
+	.overboxinner {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		/* height: 167px; */
+	}
+	.overlogoimg {
+		width: 120px;
+		margin: 10px auto 0;
+	}
+	.overlogoimg img {
+		width: 120px;
+		margin-bottom: 10px;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.littletext {
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.littletext2 {
+		text-align: center;
+		font-size: 12px;
+	}
+
+
+	.logoarea {
+		color:#659ad2;
+		text-align: center;
+		font-size: 13px;
+	}
+	.logourl {
+		text-align: center;
+		font-size: 13px;
+	}
+
+	.category {
+	  width: 100%;
+	  text-align: center;
+	  margin: 0 auto;
+	  background-image: url('../images/line3.jpg');
+	  background-repeat: no-repeat;
+	  padding-bottom:40px;
+	}
+	.category > .category-filter {
+	  margin: 0 auto;
+	  /* width: 390px; */
+	  font-size: 16px;
+	}
+	button {
+	  border: 0;
+	  background-color: #fff;
+	  cursor: pointer;
+	  border-right: 1px solid #c1c1c1;
+	  padding: 0 12px;
+	  font-size: 16px;
+	  color:#333;
+	}
+	button:hover {
+		color:#659ad2;
+	}
+	button:last-child {
+	  border-right: 0;
+	}
+	button:focus {
+	  outline: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*태블릿*/
+/*768~1024사이*/
+/*태블릿세로*/
+@media (min-width:768px) and (max-width:1024px) {
+	.subwrap {
+		width: 100%;
+	}
+	.subwrap2 {
+		width: 100%;
+		background-color: #f7f7f7;
+	}
+	.subbanner {
+		width: 100%;
+		margin: 0 auto;
+		height: 720px;
+		background-image: url('../images/subbanner1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext {
+		width: 100%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 4em;
+		width: 90%;
+		line-height: 1.2em;
+		text-align: center;
+		margin: 0 auto 50px;
+	}
+	.subbannertext p {
+		color:#fff;
+		width: 80%;
+		margin: 0 auto;
+		font-size: 1em;
+		text-align: center;
+		font-weight: 300;
+	}
+
+
+	.subcontent {
+		width: 90%;
+		margin: 50px auto;
+		overflow-y: hidden;
+	}
+	.companybox {
+		width: 29%;
+		float: left;
+		/* border: 1px solid #ccc; */
+		box-sizing: border-box;
+		border-radius: 10px;
+		overflow-y: hidden;
+		margin: 0 2%;
+		margin-bottom: 30px;
+		display: none;
+	}
+	.companyimgbox {
+		width: 100%;
+		overflow-y: hidden;
+		float: left;
+		display: none;
+	}
+	.companyimgbox img {
+		float: left;
+		width: 100%;
+	}
+	.com_img{
+		height:10vw;
+	}
+
+
+	.companytextbox {
+		width: 100%;
+		background-color: #f7f7f7;
+		padding: 15px 0;
+		text-align: center;
+		overflow-y: hidden;
+		border-top: 1px solid #ccc;
+	}
+	.companytextbox p {
+		text-align: center;
+		font-size: 13px;
+	}
+	.companytextbox .textuuu {
+		text-align: center;
+		font-size: 14px;
+		opacity: 0.8;
+		font-weight: 300;
+		padding-top: 10px;
+	}
+
+	/*team*/
+	.subbanner2 {
+		width: 100%;
+		margin: 0 auto;
+		height: 720px;
+		background-image: url('../images/subbanner2.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext2 {
+		width: 80%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext2 h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 4em;
+		line-height: 1.2em;
+		width: 90%;
+		text-align: center;
+		margin: 60px auto 70px;
+	}
+	.teamlist {
+		width: 80%;
+		margin:0 auto;
+		overflow-y: hidden;
+		text-align: center;
+		color:#fff;
+	}
+	.teamlist li {
+		text-align: center;
+		display: inline-block;
+		width:48%;
+		/*padding: 0 4%;*/
+		height: 50px;
+	}
+	.teamlist li a {
+		color:#fff;
+	}
+	.teamlist li > a:hover {
+		border-bottom: 3px solid #fff;
+		/*text-decoration: underline;/*/
+	}
+	.ceo {
+		width: 100%;
+		margin: 0 auto 40px;
+		overflow: hidden;
+	}
+	.ceo h2 {
+		text-align: left;
+		width: 80%;
+		color:#333;
+		font-size: 26px;
+		font-weight: 600;
+		/*background-color: #659ad2;*/
+		overflow-y: hidden;
+		/*padding: 8px 8px;*/
+		/*border-radius: 40px 40px;*/
+		margin-bottom: 20px;
+		margin-left: 2%;
+	}
+	.teambox {
+		width: 45%;
+		display: inline-block;
+		margin: 0 2%;
+		margin-bottom: 0px;
+		box-sizing: border-box;
+	}
+	.peoplebox {
+		width: 273px;
+		height: 223px;
+		margin-bottom: 10px;
+		/* border-radius: 100%; */
+		/* overflow: hidden; */
+		/* margin: 50px auto 30px; */
+	}
+	.peoplebox img {
+		margin: 0 auto;
+	}
+
+    .peoplebox3 {
+		width: 500px;
+		height: 405px;
+		/* border-radius: 100%; */
+		/* overflow: hidden; */
+		margin: 50px auto 30px;
+	}
+	.peoplebox3 img {
+		margin: 0 auto;
+	}
+	.peopletextbox{
+		width: 90%;
+		margin: 0 auto 40px;
+		text-align: center;
+	}
+	.name {
+		font-size: 18px;
+		color:#659ad2;
+		margin-bottom: 5px;
+	}
+	.name2 {
+		color:#333;
+		font-size: 16px;
+		display: block;
+		margin-bottom: 5px;
+	}
+	.name3 {
+		opacity: 0.7;
+		display: block;
+		font-size: 14px;
+		color:#333;
+	}
+
+	/*investor*/
+	.investor {
+		width: 60%;
+		margin: 0 auto;
+	}
+	.investor h1 {
+		text-align: center;
+		padding: 60px 0;
+		font-weight:400;
+		font-size: 2em;
+		opacity: 0.8;
+		overflow-y: hidden;
+	}
+
+
+	/*contact*/
+	.subbanner3 {
+		width: 100%;
+		margin: 0 auto;
+		height: 720px;
+		background-image: url('../images/subbanner3.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext3 {
+		width: 80%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext3 h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 4em;
+		line-height: 1.2em;
+		width: 90%;
+		text-align: center;
+		margin: 150px auto 80px;
+	}
+
+	.seoul {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg1.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.seoulbgbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.seoultextbox {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.seoultextbox h1 {
+		padding-bottom: 12px;
+		font-size: 1.8em;
+	}
+	.seoultextbox p {
+		font-size: 1.1em;
+		font-weight: 300;
+	}
+	.shanghai {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg2.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.shanghaibox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.shanghaitextbox {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.shanghaitextbox h1 {
+		padding-bottom: 12px;
+		font-size: 1.8em;
+	}
+	.shanghaitextbox p {
+		font-size: 1.1em;
+		font-weight: 300;
+	}
+	.bejing {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg3.png');
+		background-repeat: no-repeat;
+		background-size:cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.bejingbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.bejingtextbox {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.bejingtextbox h1 {
+		padding-bottom: 12px;
+		font-size: 1.8em;
+	}
+	.bejingtextbox p {
+		font-size: 1.1em;
+		font-weight: 300;
+	}
+	.sunnyvale {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg4.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.sunnyvalebox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.sunnyvaletextbox {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.sunnyvaletextbox h1 {
+		padding-bottom: 12px;
+		font-size: 1.8em;
+	}
+	.sunnyvaletextbox p {
+		font-size: 1.1em;
+		font-weight: 300;
+	}
+
+
+    	.chengdu {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg5.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+
+
+    	.chengdubox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.chengdutextbox {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.chengdutextbox h1 {
+		padding-bottom: 12px;
+		font-size: 1.8em;
+	}
+	.chengdutextbox p {
+		font-size: 1.1em;
+		font-weight: 300;
+	}
+
+	footer {
+		width: 100%;
+		margin: 0 auto;
+		background-color: #212121;
+	}
+	footer p {
+		color:#fff;
+		opacity: 0.7;
+		font-size: 13px;
+		font-weight: 300;
+		text-align: center;
+		padding: 40px 0;
+		overflow-y:hidden;
+	}
+
+	.teambox2 {
+		width: 100%;
+		overflow: hidden;
+	}
+	.peoplebox2 {
+		width: 112px;
+		height: 112px;
+		border-radius: 100%;
+		overflow: hidden;
+		margin: 50px auto 30px;
+	}
+	.peoplebox2 img {
+		margin: 0 auto;
+	}
+	.peopletextbox2{
+		width: 90%;
+		margin: 0 auto 40px;
+		text-align: center;
+	}
+
+	/*investor*/
+	.subbanner4 {
+		width: 100%;
+		margin: 0 auto;
+		height: 520px;
+		background-image: url('../images/subbanner4_1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext4 {
+		width: 80%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext4 h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 4em;
+		line-height: 1.2em;
+		width: 90%;
+		text-align: center;
+		margin: 60px auto 70px;
+	}
+
+	.mediabox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		border-bottom: 1px solid #ccc;
+	}
+	.mediainnder {
+		width:94%;
+		margin: 10px auto 30px;
+		overflow-y: hidden;
+	}
+	.mediaimgbox {
+		float: left;
+		margin-right: 20px;
+		width: 100%;
+		height: auto;
+	}
+	.mediaimgbox img {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.mediatextbox {
+		width: 100%;
+		float: left;
+	}
+	.mediatextbox h1 {
+		width: 100%;
+		font-size: 21px;
+		font-weight: 500;
+		padding-bottom: 10px;
+		color:#333;
+	}
+	.mediatextbox p {
+		padding-bottom: 10px;
+		color:#333;
+		width: 100%;
+	}
+	.mediatextbox a:hover {
+		text-decoration: underline;
+	}
+	.mediadate {
+		float: right;
+		font-size: 15px;
+		opacity: 0.7;
+		display: block;
+		padding-bottom: 25px;
+	}
+	.motrebtnbox {
+		width: 70px;
+		float: right;
+	}
+	.morebtn {
+		width: 70px;
+		height: 35px;
+		float: right;
+		border: 0;
+		background-color: #fff;
+		border: 1px solid #333;
+		font-size: 15px;
+		text-align: center;
+		cursor: pointer;
+		appearance:none;
+		-webkit-appearance:none;
+	}
+	.number {
+		width: 100%;
+		margin: 20px auto 20px;
+		text-align: center;
+	}
+	.number li {
+		text-align: center;
+		display: inline-block;
+		color:#fff;
+		font-size: 15px;
+	}
+	.number li a {
+		color:#333;
+	}
+	.number li a:hover {
+		text-decoration: underline;
+	}
+
+	/*미디어 상세보기*/
+	.mediabox2 {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.mediatitlebox {
+		width: 100%;
+		border-top: 3px solid #659ad2;
+		border-bottom: 1px solid #ccc;
+		overflow-y: hidden;
+		padding: 10px 0;
+	}
+	.mediatitlebox h1 {
+		font-size: 21px;
+		text-align: center;
+		width: 94%;
+		font-weight: 500;
+		margin: 0 auto;
+	}
+	.mmmmmbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		border-bottom: 1px solid #ccc;
+	}
+	.mediacontentbox {
+		width: 94%;
+		margin: 30px auto;
+		overflow-y: hidden;
+	}
+	.mediacontentimgbox {
+		width: 100%;
+		margin: 0 auto 20px;
+		overflow-y: hidden;
+	}
+	.mediacontentimgbox img {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.mediacontenttextbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.mediacontenttextbox p {
+		font-size: 16px;
+		opacity: 0.8;
+	}
+	.post {
+		width: 94%;
+		margin: 0 auto;
+	}
+	.post p {
+		font-size: 18px;
+		font-weight: 500;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	.postimgbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		display: none;
+	}
+	.postimgbox img {
+		float: left;
+		margin: 0 6px;
+		width: 23%;
+	}
+	.medialistbtnbox {
+		/*width: 70px;*/
+		/*float: right;*/
+		overflow-y: hidden;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.medialistbtn {
+		width: 70px;
+		height: 35px;
+		float: right;
+		border: 0;
+		background-color: #fff;
+		border: 1px solid #333;
+		font-size: 15px;
+		text-align: center;
+		cursor: pointer;
+		appearance:none;
+		-webkit-appearance:none;
+	}
+
+	.mpost {
+		width: 100%;
+		margin: 0 auto 25px;
+	}
+	.mpostbox1 {
+		width: 100%;
+		margin: 0 auto 10px;
+		overflow-y: hidden;
+	}
+	.mpostlistbox {
+		width: 30%;
+		float: left;
+	}
+	.mpostbox1 img {
+		float: left;
+		width: 100%;
+	}
+	.mposttextlistbox {
+		width: 65%;
+		float: right;
+	}
+	.mposttextlistbox h1 {
+		font-size: 14px;
+		text-align: left;
+		width: 100%;
+		overflow: hidden;
+		font-weight: 500;
+		padding-bottom: 10px;
+	}
+	.mposttextlistbox p {
+		font-size: 13px;
+		font-weight: 400;
+		opacity: 0.8;
+		text-align: left;
+		width: 100%;
+		height: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display:-webkit-box;
+		-webkit-line-clamp:3;
+		-webkit-box-orient:vertical;
+		word-wrap:break-word;
+		line-height:20px;
+		height:60px;
+	}
+
+
+	.companybox2 {
+		width: 31.3%;
+		float: left;
+    border: 1px solid #ccc;
+		border-radius: 10px;
+		overflow: hidden;
+		margin: 0 1%;
+		margin-bottom:30px;
+    box-sizing: border-box;
+		cursor: pointer;
+		height: 16vw;
+		display: table;
+	}
+
+	.long_txttt{
+		width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+
+	.roungbox1, .roungbox2, .roungbox3, .roungbox4, .roungbox5 {
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		border-radius: 10px;
+		overflow-y: hidden;
+		width: 100%;
+		margin: 0 auto;
+		padding: 50px 0;
+		position:relative;
+	}
+	.roundimgboxinnder {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.roundimgboxinnder img {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.companyover, .companyover2, .companyover3, .companyover4, .companyover5 {
+		width: 100%;
+		float:left;
+		margin-bottom: 25px;
+		position: absolute;
+		z-index: 999;
+		/* display: none; */
+		cursor: pointer;
+		top: 71%
+	}
+	.overbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		background: #fff;
+		position: relative;
+		/* border: 1px solid #ccc; */
+		box-sizing: border-box;
+		border-radius: 10px;
+		top: -118px;
+		/* display: none; */
+	}
+	.overboxinner {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		/* height: 167px; */
+	}
+	.overlogoimg {
+		width: 120px;
+		margin: 10px auto 0;
+	}
+	.overlogoimg img {
+		width: 120px;
+		margin-bottom: 10px;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.littletext {
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.littletext2 {
+		text-align: center;
+		font-size: 12px;
+	}
+
+
+	.logoarea {
+		color:#659ad2;
+		text-align: center;
+	}
+	.logourl {
+		text-align: center;
+	}
+
+	.category {
+	  width: 100%;
+	  text-align: center;
+	  margin: 0 auto;
+	  background-image: url('../images/line3.jpg');
+	  background-repeat: no-repeat;
+	  padding-bottom:40px;
+	}
+	.category > .category-filter {
+	  margin: 0 auto;
+	  width: 650px;
+	  font-size: 16px;
+	}
+	button {
+	  border: 0;
+	  background-color: #fff;
+	  cursor: pointer;
+	  border-right: 1px solid #c1c1c1;
+	  padding: 0 12px;
+	  font-size: 16px;
+	  color:#333;
+	}
+	button:hover {
+		color:#659ad2;
+	}
+	button:last-child {
+	  border-right: 0;
+	}
+	button:focus {
+	  outline: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*태블릿 가로,pc*/
+/*1025이상*/
+@media all and (min-width: 1025px) and (max-width: 1499px) {
+	.subwrap {
+		width: 100%;
+	}
+	.subwrap2 {
+		width: 100%;
+		background-color: #f7f7f7;
+	}
+	.subbanner {
+		width: 100%;
+		margin: 0 auto;
+		height: 720px;
+		background-image: url('../images/subbanner1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext {
+		width: 100%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 4.5em;
+		width: 90%;
+		text-align: center;
+		line-height: 1.2em;
+		margin: 0 auto 70px;
+	}
+	.subbannertext p {
+		color:#fff;
+		width: 80%;
+		margin: 0 auto;
+		font-size: 1em;
+		text-align: center;
+		font-weight: 300;
+	}
+
+
+	.subcontent {
+		width: 90%;
+		margin: 50px auto;
+		overflow-y: hidden;
+	}
+	.companybox {
+		width: 18%;
+		float: left;
+		/* border: 1px solid #ccc; */
+		box-sizing: border-box;
+		border-radius: 10px;
+		overflow-y: hidden;
+		margin: 0 1%;
+		margin-bottom: 30px;
+		display: none;
+	}
+	.companyimgbox {
+		width: 100%;
+		overflow-y: hidden;
+		float: left;
+	}
+	.companyimgbox img {
+		float: left;
+		width: 100%;
+	}
+	.com_img{
+		height:6vw;
+	}
+
+	.companytextbox {
+		width: 100%;
+		background-color: #f7f7f7;
+		padding: 15px 0;
+		text-align: center;
+		overflow-y: hidden;
+		border-top: 1px solid #ccc;
+		height: 9vw;
+	}
+	.companytextbox p {
+		text-align: center;
+		font-size: 18px;
+	}
+	.companytextbox .textuuu {
+		text-align: center;
+		font-size: 14px;
+		opacity: 0.8;
+		font-weight: 300;
+		padding-top: 10px;
+	}
+
+
+	/*team*/
+	.subbanner2 {
+		width: 100%;
+		margin: 0 auto;
+		height: 720px;
+		background-image: url('../images/subbanner2.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext2 {
+		width: 80%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext2 h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 4em;
+		line-height: 1.2em;
+		width: 90%;
+		text-align: center;
+		margin: 60px auto 70px;
+	}
+	.teamlist {
+		width: 80%;
+		margin:0 auto;
+		overflow-y: hidden;
+		text-align: center;
+		color:#fff;
+	}
+	.teamlist li {
+		text-align: center;
+		display: inline-block;
+		width:25%;
+		/*padding: 0 4%;*/
+		height: 50px;
+	}
+	.teamlist li a {
+		color:#fff;
+	}
+	.teamlist li > a:hover {
+		border-bottom: 3px solid #fff;
+		/*text-decoration: underline;/*/
+	}
+	.ceo {
+		width: 100%;
+		margin: 0 auto 40px;
+		overflow: hidden;
+	}
+	.ceo h2 {
+		text-align: left;
+		width: 80%;
+		color:#333;
+		font-size: 26px;
+		font-weight: 600;
+		/*background-color: #659ad2;*/
+		overflow-y: hidden;
+		/*padding: 8px 8px;*/
+		/*border-radius: 40px 40px;*/
+		margin-bottom: 20px;
+		margin-left: 2%;
+	}
+	.teambox {
+		width: 29%;
+		/* float: left; */
+		display: inline-block;
+		margin: 0 1.5%;
+		margin-bottom: 40px;
+	}
+	.peoplebox {
+		width: 273px;
+		height: 223px;
+		margin-bottom: 10px;
+		/* border-radius: 100%; */
+		/* overflow: hidden; */
+		/* margin: 50px auto 30px; */
+	}
+	.peoplebox img {
+		margin: 0 auto;
+	}
+
+    	.peoplebox3 {
+		width:550px;
+		height: 445px;
+		/* border-radius: 100%; */
+		/* overflow: hidden; */
+		margin: 50px auto 30px;
+	}
+	.peoplebox3 img {
+		margin: 0 auto;
+	}
+	.peopletextbox{
+		width: 273px;
+		/* margin: 0 auto 0; */
+		text-align: center;
+	}
+	.name {
+		font-size: 18px;
+		color:#659ad2;
+		margin-bottom: 5px;
+	}
+	.name2 {
+		color:#333;
+		font-size: 16px;
+		display: block;
+		margin-bottom: 5px;
+	}
+	.name3 {
+		opacity: 0.7;
+		display: block;
+		font-size: 14px;
+		color:#333;
+	}
+
+	/*investor*/
+	.investor {
+		width: 60%;
+		margin: 0 auto;
+	}
+	.investor h1 {
+		text-align: center;
+		padding: 60px 0;
+		font-weight:400;
+		font-size: 3em;
+		opacity: 0.8;
+		overflow-y: hidden;
+	}
+
+	/*contact*/
+	.subbanner3 {
+		width: 100%;
+		margin: 0 auto;
+		height: 720px;
+		background-image: url('../images/subbanner3.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext3 {
+		width: 80%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext3 h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 5.5em;
+		line-height: 1.2em;
+		width: 87%;
+		text-align: center;
+		margin: 150px auto 80px;
+	}
+
+	.seoul {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg1.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.seoulbgbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.seoultextbox {
+		width: 94%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.seoultextbox h1 {
+		padding-bottom: 12px;
+		font-size: 2em;
+	}
+	.seoultextbox p {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+	.shanghai {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg2.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.shanghaibox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.shanghaitextbox {
+		width: 94%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.shanghaitextbox h1 {
+		padding-bottom: 12px;
+		font-size: 2em;
+	}
+	.shanghaitextbox p {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+	.bejing {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg3.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.bejingbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.bejingtextbox {
+		width: 94%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.bejingtextbox h1 {
+		padding-bottom: 12px;
+		font-size: 2em;
+	}
+	.bejingtextbox p {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+	.sunnyvale {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg4.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.sunnyvalebox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.sunnyvaletextbox {
+		width: 94%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.sunnyvaletextbox h1 {
+		padding-bottom: 12px;
+		font-size: 2em;
+	}
+	.sunnyvaletextbox p {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+
+
+    	.chengdu {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg5.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.chengdubox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.chengdutextbox {
+		width: 94%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.chengdutextbox h1 {
+		padding-bottom: 12px;
+		font-size: 2em;
+	}
+	.chengdutextbox p {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+
+	footer {
+		width: 100%;
+		margin: 0 auto;
+		background-color: #212121;
+	}
+	footer p {
+		color:#fff;
+		opacity: 0.7;
+		font-size: 13px;
+		font-weight: 300;
+		text-align: center;
+		padding: 40px 0;
+		overflow-y:hidden;
+	}
+
+	.teambox2 {
+		width: 100%;
+		overflow: hidden;
+	}
+	.peoplebox2 {
+		width: 112px;
+		height: 112px;
+		border-radius: 100%;
+		overflow: hidden;
+		margin: 50px auto 30px;
+	}
+	.peoplebox2 img {
+		margin: 0 auto;
+	}
+	.peopletextbox2{
+		width: 90%;
+		margin: 0 auto 40px;
+		text-align: center;
+	}
+
+	/*investor*/
+	.subbanner4 {
+		width: 100%;
+		margin: 0 auto;
+		height: 720px;
+		background-image: url('../images/subbanner4_1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext4 {
+		width: 80%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext4 h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 5.5em;
+		line-height: 1.2em;
+		width: 87%;
+		text-align: center;
+		margin: 60px auto 70px;
+	}
+
+	.mediabox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		border-bottom: 1px solid #ccc;
+	}
+	.mediainnder {
+		width:94%;
+		margin: 0 auto 30px;
+		overflow-y: hidden;
+	}
+	.mediaimgbox {
+		float: left;
+		margin-right: 20px;
+		width: 25%;
+		height: auto;
+	}
+	.mediaimgbox img {
+		width: 100%;
+	}
+	.mediatextbox {
+		width: 72%;
+		float: left;
+	}
+	.mediatextbox h1 {
+		width: 100%;
+		font-size: 21px;
+		font-weight: 500;
+		padding-bottom: 10px;
+		color:#333;
+	}
+	.mediatextbox p {
+		padding-bottom: 10px;
+		color:#333;
+		width: 100%;
+	}
+	.mediatextbox a:hover {
+		text-decoration: underline;
+	}
+	.mediadate {
+		float: right;
+		font-size: 15px;
+		opacity: 0.7;
+		display: block;
+		padding-bottom: 25px;
+	}
+	.motrebtnbox {
+		width: 70px;
+		float: right;
+	}
+	.morebtn {
+		width: 70px;
+		height: 30px;
+		float: right;
+		border: 0;
+		background-color: #fff;
+		border: 1px solid #333;
+		font-size: 15px;
+		text-align: center;
+		cursor: pointer;
+		appearance:none;
+		-webkit-appearance:none;
+	}
+	.number {
+		width: 100%;
+		margin: 20px auto 20px;
+		text-align: center;
+	}
+	.number li {
+		text-align: center;
+		display: inline-block;
+		color:#fff;
+		font-size: 15px;
+	}
+	.number li a {
+		color:#333;
+	}
+	.number li a:hover {
+		text-decoration: underline;
+	}
+
+	/*미디어 상세보기*/
+	.mediabox2 {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.mediatitlebox {
+		width: 100%;
+		border-top: 3px solid #659ad2;
+		border-bottom: 1px solid #ccc;
+		overflow-y: hidden;
+		padding: 10px 0;
+	}
+	.mediatitlebox h1 {
+		font-size: 21px;
+		text-align: center;
+		width: 94%;
+		font-weight: 500;
+		margin: 0 auto;
+	}
+	.mmmmmbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		border-bottom: 1px solid #ccc;
+	}
+	.mediacontentbox {
+		width: 94%;
+		margin: 30px auto;
+		overflow-y: hidden;
+	}
+	.mediacontentimgbox {
+		width: 100%;
+		margin: 0 auto 20px;
+		overflow-y: hidden;
+	}
+	.mediacontentimgbox img {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.mediacontenttextbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.mediacontenttextbox p {
+		font-size: 16px;
+		opacity: 0.8;
+	}
+	.post {
+		width: 94%;
+		margin: 0 auto;
+	}
+	.post p {
+		font-size: 18px;
+		font-weight: 500;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.postimgbox {
+		width: 70%;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.postimginnerbox {
+		width: 23.6%;
+		float: left;
+		margin:0 0.7%;
+	}
+	.postimginnerbox img {
+		float: left;
+		width: 100%;
+	}
+	.medialistbtnbox {
+		/*width: 70px;*/
+		/*float: right;*/
+		overflow-y: hidden;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.medialistbtn {
+		width: 70px;
+		height: 35px;
+		float: right;
+		border: 0;
+		background-color: #fff;
+		border: 1px solid #333;
+		font-size: 15px;
+		text-align: center;
+		cursor: pointer;
+		appearance:none;
+		-webkit-appearance:none;
+	}
+	.mpost {
+		display: none;
+	}
+
+
+	.companybox2 {
+		width: 23%;
+		float: left;
+    border: 1px solid #ccc;
+		border-radius: 10px;
+		overflow: hidden;
+		margin: 0 1%;
+		margin-bottom:30px;
+    box-sizing: border-box;
+		cursor: pointer;
+		height: 15vw;
+		display: table;
+	}
+
+	.long_txttt{
+		width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+
+	.roungbox1, .roungbox2, .roungbox3, .roungbox4 , .roungbox5 {
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		border-radius: 10px;
+		overflow-y: hidden;
+		width: 100%;
+		margin: 0 auto;
+		padding: 50px 0;
+		position:relative;
+	}
+	.roundimgboxinnder {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.roundimgboxinnder img {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.companyover ,.companyover2, .companyover3, .companyover4, .companyover5 {
+		width: 100%;
+		float:left;
+		margin-bottom: 25px;
+		position: absolute;
+		z-index: 999;
+		/* display: none; */
+		cursor: pointer;
+		top: 72%
+	}
+	.overbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		background: #fff;
+		position: relative;
+		/* border: 1px solid #ccc; */
+		box-sizing: border-box;
+		border-radius: 10px;
+		top: -118px;
+		/* display: none; */
+	}
+	.overboxinner {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		/* height: 167px; */
+	}
+	.overlogoimg {
+		width: 120px;
+		margin: 10px auto 0;
+	}
+	.overlogoimg img {
+		width: 120px;
+		margin-bottom: 10px;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.littletext {
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.littletext2 {
+		text-align: center;
+		font-size: 12px;
+	}
+
+
+	.logoarea {
+		color:#659ad2;
+		text-align: center;
+	}
+	.logourl {
+		text-align: center;
+	}
+
+	.category {
+	  width: 100%;
+	  text-align: center;
+	  margin: 0 auto;
+	  background-image: url('../images/line3.jpg');
+	  background-repeat: no-repeat;
+	  padding-bottom:40px;
+	}
+	.category > .category-filter {
+	  margin: 0 auto;
+	  width: 650px;
+	  font-size: 16px;
+	}
+	button {
+	  border: 0;
+	  background-color: #fff;
+	  cursor: pointer;
+	  border-right: 1px solid #c1c1c1;
+	  padding: 0 12px;
+	  font-size: 16px;
+	  color:#333;
+	}
+	button:hover {
+		color:#659ad2;
+	}
+	button:last-child {
+	  border-right: 0;
+	}
+	button:focus {
+	  outline: none;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1500px) {
+	.subwrap {
+		width: 100%;
+	}
+	.subwrap2 {
+		width: 100%;
+		background-color: #f7f7f7;
+	}
+	.subbanner {
+		width: 100%;
+		margin: 0 auto;
+		height: 720px;
+		background-image: url('../images/subbanner1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext {
+		width: 100%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 6.5em;
+		width: 80%;
+		text-align: center;
+		margin: 0 auto 50px;
+	}
+	.subbannertext p {
+		color:#fff;
+		width: 80%;
+		margin: 0 auto;
+		font-size: 1.3em;
+		text-align: center;
+		font-weight: 300;
+	}
+
+
+	.subcontent {
+		width: 70%;
+		margin: 50px auto;
+		overflow-y: hidden;
+	}
+	.companybox1 {
+		width: 18.3%;
+		float: left;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		border-radius: 10px;
+		overflow-y: hidden;
+		margin-right: 26px;
+		margin-bottom: 30px;
+	}
+	.companyimgbox {
+		width: 100%;
+		overflow-y: hidden;
+		float: left;
+	}
+	.companyimgbox img {
+		float: left;
+		width: 100%;
+	}
+	.com_img{
+		height:4vw;
+	}
+
+
+	.companytextbox {
+		width: 100%;
+		background-color: #f7f7f7;
+		padding: 15px 0;
+		text-align: center;
+		overflow-y: hidden;
+		border-top: 1px solid #ccc;
+		height:5.6vw;
+	}
+	.companytextbox p {
+		text-align: center;
+		font-size: 18px;
+	}
+	.companytextbox .textuuu {
+		text-align: center;
+		font-size: 14px;
+		opacity: 0.8;
+		font-weight: 300;
+		padding-top: 10px;
+	}
+
+
+	/*team*/
+	.subbanner2 {
+		width: 100%;
+		margin: 0 auto;
+		height: 720px;
+		background-image: url('../images/subbanner2.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext2 {
+		width: 100%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext2 h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 5.5em;
+		line-height: 1.2em;
+		width: 80%;
+		text-align: center;
+		margin: 80px auto 100px;
+	}
+	.teamlist {
+		width: 80%;
+		margin:0 auto;
+		overflow-y: hidden;
+		text-align: center;
+		color:#fff;
+	}
+	.teamlist li {
+		text-align: center;
+		display: inline-block;
+		/*width:15%;*/
+		padding: 0 2%;
+		height: 50px;
+	}
+	.teamlist li a {
+		color:#fff;
+	}
+	.teamlist li > a:hover {
+		border-bottom: 3px solid #fff;
+		/*text-decoration: underline;/*/
+	}
+	/*.teamlist .aaa:after {
+		content: '';
+	   height: 1px;
+	   display: block;
+	   position: absolute;
+	   margin-top: 15px;
+	   border-bottom: 3px solid #fff;
+	}*/
+	.ceo {
+		width: 100%;
+		margin: 0 auto 40px;
+		overflow: hidden;
+	}
+	.ceo h2 {
+		text-align: left;
+		width: 80%;
+		color:#333;
+		font-size: 26px;
+		font-weight: 600;
+		/*background-color: #659ad2;*/
+		overflow-y: hidden;
+		/*padding: 8px 8px;*/
+		/*border-radius: 40px 40px;*/
+		margin-bottom: 20px;
+		margin-left: 2%;
+	}
+	.teambox {
+		width: 21%;
+    margin: 0 1.5%;
+    margin-bottom: 40px;
+    display: inline-block;
+	}
+
+
+	.peoplebox {
+		width: 100%;
+		height: 223px;
+		margin-bottom: 10px;
+		/* border-radius: 100%; */
+		/* overflow: hidden; */
+		/* margin: 50px auto 30px; */
+	}
+	.peoplebox img {
+		margin: 0 auto;
+	}
+	.peopletextbox{
+		width: 273px;
+		/* margin: 0 auto 40px; */
+		text-align: center;
+	}
+
+
+
+    	.peoplebox3 {
+		width: 550px;
+		height: 445px;
+		/* border-radius: 100%; */
+		/* overflow: hidden; */
+		margin: 50px auto 30px;
+	}
+	.peoplebox3 img {
+		margin: 0 auto;
+	}
+
+	.name {
+		font-size: 18px;
+		color:#659ad2;
+		margin-bottom: 5px;
+	}
+	.name2 {
+		color:#333;
+		font-size: 16px;
+		display: block;
+		margin-bottom: 5px;
+	}
+	.name3 {
+		opacity: 0.7;
+		display: block;
+		font-size: 14px;
+		color:#333;
+	}
+
+
+	/*investor*/
+	.investor {
+		width: 60%;
+		margin: 0 auto;
+	}
+	.investor h1 {
+		text-align: center;
+		padding: 60px 0;
+		font-weight:400;
+		font-size: 3em;
+		opacity: 0.8;
+		overflow-y: hidden;
+	}
+
+
+	/*contact*/
+	.subbanner3 {
+		width: 100%;
+		margin: 0 auto;
+		height: 720px;
+		background-image: url('../images/subbanner3.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext3 {
+		width: 80%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext3 h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 6.5em;
+		line-height: 1.2em;
+		width: 80%;
+		text-align: center;
+		margin: 150px auto 80px;
+	}
+	.seoul {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg1.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.seoulbgbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.seoultextbox {
+		width: 94%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.seoultextbox h1 {
+		padding-bottom: 12px;
+		font-size: 2em;
+	}
+	.seoultextbox p {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+	.shanghai {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg2.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.shanghaibox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.shanghaitextbox {
+		width: 94%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.shanghaitextbox h1 {
+		padding-bottom: 12px;
+		font-size: 2em;
+	}
+	.shanghaitextbox p {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+	.bejing {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg3.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.bejingbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.bejingtextbox {
+		width: 94%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.bejingtextbox h1 {
+		padding-bottom: 12px;
+		font-size: 2em;
+	}
+	.bejingtextbox p {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+	.sunnyvale {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg4.png');
+		background-repeat: no-repeat;
+		background-size:cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+	.sunnyvalebox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.sunnyvaletextbox {
+		width: 94%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.sunnyvaletextbox h1 {
+		padding-bottom: 12px;
+		font-size: 2em;
+	}
+	.sunnyvaletextbox p {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+
+    .chengdu {
+		width: 100%;
+		margin: 0 auto 25px;
+		overflow-y: hidden;
+		border-radius: 20px 20px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		background-image:url('../images/contactbg5.png');
+		background-repeat: no-repeat;
+		background-size:cover;
+		/*height: 180px;*/
+		background-position: center right;
+		background-color: #fff;
+	}
+
+
+    	.chengdubox {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		/*height: 180px;*/
+	}
+	.chengdutextbox {
+		width: 94%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		padding: 30px 0;
+	}
+	.chengdutextbox h1 {
+		padding-bottom: 12px;
+		font-size: 2em;
+	}
+	.chengdutextbox p {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+
+
+
+	footer {
+		width: 100%;
+		margin: 0 auto;
+		background-color: #212121;
+	}
+	footer p {
+		color:#fff;
+		opacity: 0.7;
+		font-size: 13px;
+		font-weight: 300;
+		text-align: center;
+		padding: 40px 0;
+		overflow-y:hidden;
+	}
+
+	.teambox2 {
+		width: 100%;
+		overflow: hidden;
+	}
+	.peoplebox2 {
+		width: 112px;
+		height: 112px;
+		border-radius: 100%;
+		overflow: hidden;
+		margin: 50px auto 30px;
+	}
+	.peoplebox2 img {
+		margin: 0 auto;
+	}
+	.peopletextbox2{
+		width: 90%;
+		margin: 0 auto 40px;
+		text-align: center;
+	}
+
+	/*investor*/
+	.subbanner4 {
+		width: 100%;
+		margin: 0 auto;
+		height: 720px;
+		background-image: url('../images/subbanner4_1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: table;
+	}
+	.subbannertext4 {
+		width: 80%;
+		margin: 0 auto;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.subbannertext4 h1 {
+		color:#fff;
+		font-weight: bold;
+		font-size: 6.5em;
+		line-height: 1.2em;
+		width: 80%;
+		text-align: center;
+		margin: 90px auto 80px;
+	}
+
+	.mediabox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		border-bottom: 1px solid #ccc;
+	}
+	.mediainnder {
+		width:94%;
+		margin: 0 auto 30px;
+		overflow-y: hidden;
+	}
+	.mediaimgbox {
+		float: left;
+		margin-right: 20px;
+		width: 25%;
+		height: auto;
+	}
+	.mediaimgbox img {
+		width: 100%;
+	}
+	.mediatextbox {
+		width: 72%;
+		/*float: right;*/
+	}
+	.mediatextbox h1 {
+		width: 100%;
+		font-size: 21px;
+		font-weight: 500;
+		padding-bottom: 10px;
+		color:#333;
+	}
+	.mediatextbox p {
+		padding-bottom: 10px;
+		color:#333;
+		width: 100%;
+	}
+	.mediatextbox a:hover {
+		text-decoration: underline;
+	}
+	.mediadate {
+		float: right;
+		font-size: 15px;
+		opacity: 0.7;
+		display: block;
+		padding-bottom: 25px;
+	}
+	.motrebtnbox {
+		width: 70px;
+		float: right;
+	}
+	.morebtn {
+		width: 70px;
+		height: 35px;
+		float: right;
+		border: 0;
+		background-color: #fff;
+		border: 1px solid #333;
+		font-size: 15px;
+		text-align: center;
+		cursor: pointer;
+	}
+	.number {
+		width: 100%;
+		margin: 20px auto 20px;
+		text-align: center;
+	}
+	.number li {
+		text-align: center;
+		display: inline-block;
+		color:#fff;
+		font-size: 15px;
+	}
+	.number li a {
+		color:#333;
+	}
+	.number li a:hover {
+		text-decoration: underline;
+	}
+
+	/*미디어 상세보기*/
+	.mediabox2 {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.mediatitlebox {
+		width: 100%;
+		border-top: 3px solid #659ad2;
+		border-bottom: 1px solid #ccc;
+		overflow-y: hidden;
+		padding: 10px 0;
+	}
+	.mediatitlebox h1 {
+		font-size: 21px;
+		text-align: center;
+		width: 94%;
+		font-weight: 500;
+		margin: 0 auto;
+	}
+	.mmmmmbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		border-bottom: 1px solid #ccc;
+	}
+	.mediacontentbox {
+		width: 94%;
+		margin: 30px auto;
+		overflow-y: hidden;
+	}
+	.mediacontentimgbox {
+		width: 100%;
+		margin: 0 auto 20px;
+		overflow-y: hidden;
+	}
+	.mediacontentimgbox img {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.mediacontenttextbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.mediacontenttextbox p {
+		font-size: 16px;
+		opacity: 0.8;
+	}
+	.post {
+		width: 94%;
+		margin: 0 auto;
+	}
+	.post p {
+		font-size: 18px;
+		font-weight: 500;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.postimgbox {
+		width: 70%;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+	.postimginnerbox {
+		width: 23.6%;
+		float: left;
+		margin:0 0.7%;
+	}
+	.postimginnerbox img {
+		float: left;
+		width: 100%;
+	}
+	.medialistbtnbox {
+		/*width: 70px;*/
+		/*float: right;*/
+		overflow-y: hidden;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.medialistbtn {
+		width: 70px;
+		height: 35px;
+		float: right;
+		border: 0;
+		background-color: #fff;
+		border: 1px solid #333;
+		font-size: 15px;
+		text-align: center;
+		cursor: pointer;
+		appearance:none;
+		-webkit-appearance:none;
+	}
+	.mpost {
+		display: none;
+	}
+
+	.companybox2 {
+		width: 18%;
+		float: left;
+    border: 1px solid #ccc;
+		border-radius: 10px;
+		overflow: hidden;
+		margin: 0 1%;
+		margin-bottom:30px;
+    box-sizing: border-box;
+		cursor: pointer;
+		height: 9vw;
+		display: table;
+	}
+
+	.long_txttt{
+		width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+
+	.roungbox1, .roungbox2, .roungbox3, .roungbox4, .roungbox5 {
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		border-radius: 10px;
+		overflow-y: hidden;
+		width: 100%;
+		margin: 0 auto;
+		padding: 50px 0;
+		position:relative;
+	}
+
+	.roundimgboxinnder {
+		width: 90%;
+		margin: 40px auto;
+	}
+
+	.roundimgboxinnder2 {
+		width: 90%;
+		margin: 40px auto;
+	}
+
+
+	.roundimgboxinnder > img {
+    display: block;
+		width: 100%;
+		margin: 0 auto;
+    max-width: 200px;
+	}
+
+	.companyover, .companyover2, .companyover3, .companyover4, .companyover5 {
+		width: 100%;
+		float:left;
+		margin-bottom: 25px;
+		position: absolute;
+		z-index: 999;
+		display: none;
+		cursor: pointer;
+		top: 105%
+	}
+	.overbox {
+		width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		background: #fff;
+		position: relative;
+		/* border: 1px solid #ccc; */
+		box-sizing: border-box;
+		border-radius: 10px;
+		top: -118px;
+		z-index: -999;
+		/* display: none; */
+	}
+	.overboxinner {
+		width: 90%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		/* height: 167px; */
+	}
+	.overlogoimg {
+		width: 120px;
+		margin: 10px auto 0;
+	}
+	.overlogoimg img {
+		width: 120px;
+		margin-bottom: 10px;
+		margin: 0 auto;
+		overflow-y: hidden;
+	}
+
+	.littletext {
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.littletext2 {
+		text-align: center;
+		font-size: 12px;
+	}
+
+
+	.logoarea {
+		color:#659ad2;
+		text-align: center;
+	}
+	.logourl {
+		text-align: center;
+	}
+
+	.category {
+	  width: 100%;
+	  text-align: center;
+	  margin: 0 auto;
+	  background-image: url('../images/line3.jpg');
+	  background-repeat: no-repeat;
+	  padding-bottom:40px;
+	}
+	.category > .category-filter {
+	  margin: 0 auto;
+	  width: 700px;
+	  font-size: 16px;
+	}
+	button {
+	  border: 0;
+	  background-color: #fff;
+	  cursor: pointer;
+	  border-right: 1px solid #c1c1c1;
+	  padding: 0 12px;
+	  font-size: 16px;
+	  color:#333;
+	}
+	button:hover {
+		color:#659ad2;
+	}
+	button:last-child {
+	  border-right: 0;
+	}
+	button:focus {
+	  outline: none;
+	}
+}

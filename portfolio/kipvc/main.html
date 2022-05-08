@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta content="blendTrans(Duration=0.0)" http-equiv="Page-Enter">
+	<meta content="blendTrans(Duration=0.0)" http-equiv="Page-Exit">
+	<title>한국투자파트너스</title>
+	<meta name="author" content="Alvaro Trigo Lopez">
+	<meta name="description" content="fullPage callback function.">
+	<meta name="Resource-type" content="Document">
+	<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.2.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="css/examples.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!--메뉴-->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script>
+		// $(document).ready(function () {
+		//     $('body').fadeIn(600).removeClass('hidden');
+		// });
+		jQuery(function($) {
+$("body").css("display", "none");
+$("body").fadeIn(100);
+$("a.transition").click(function(event){
+event.preventDefault();
+linkLocation = this.href;
+$("body").fadeOut(0, redirectPage);
+});
+function redirectPage() {
+window.location = linkLocation;
+}
+});
+</script> -->
+	<style>
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+    font-size: 4em;
+    font-family: arial,helvetica;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+		overflow: hidden;
+	}
+
+	#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		min-height: 100%;z
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+
+
+
+	/* Layer with position absolute in order to have it over the video
+	* --------------------------------------- */
+	#section0 .layer{
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+		left: 0;
+		top: 43%;
+
+		/*
+		* Preventing flicker on some browsers
+		* See http://stackoverflow.com/a/36671466/1081396  or issue #183
+		*/
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	/*solves problem with overflowing video in Mac with Chrome */
+	#section0{
+		overflow: hidden;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+
+
+	/* Hiding video controls
+	* See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
+	* --------------------------------------- */
+	video::-webkit-media-controls {
+	  display:none !important;
+	}
+
+	</style>
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js" type="text/javascript"></script> -->
+
+	<script src="../../ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> -->
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<!-- <script type="text/javascript" src="js/examples.js"></script> -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: true,
+				sectionsColor: ['#fff', '#4BBFC3', '#7BAABE']
+			});
+		});
+	</script>
+
+	<script>
+		// $('.counter').each(function () {
+		//   jQuery({ Counter: 0 }).animate({ Counter: $(this).text() }, {
+		//     duration: 1000,
+		//     easing: 'swing',
+		//     step: function () {
+		//       $(this).text(Math.ceil(this.Counter));
+		//     }
+		//   });
+		// });
+		//
+		jQuery({ Counter: 0 }).animate({ Counter: $('.counter').text() }, {
+		  duration: 1000,
+		  easing: 'swing',
+		  step: function () {
+		    $('.counter').text(Math.ceil(this.Counter));
+		  }
+		});
+	</script>
+</head>
+<body style="background-color:#fff;">
+<div class="senav">
+	<div class="menubox">
+		<img src="images/menu.png" class="menu left-exit" id="nav-icon3" style="display:none;">
+		<a href="main.html"><img src="images/logo.png" width="200" class="logo"></a>
+		<a href="main.html"><img src="images/logo2.jpg" class="logo2"></a>
+	</div>
+	<div class="sliding-menu flex-center-wrapper flex-column left-menu">
+		<ul>
+			<li>
+				<a href="main.html">HOME</a>
+			</li>
+			<li style="list-style: none; display: inline">
+			</li>
+			<li>
+				<a href="company.jsp.html">COMPANY</a>
+			</li>
+			<li style="list-style: none; display: inline">
+			</li>
+			<li style="list-style: none; display: inline">
+				<a href="team.jsp.html">TEAM</a>
+			</li>
+			<li>
+				<a href="media.jsp.html">MEDIA</a>
+			</li>
+			<li>
+				<a href="contact.html">CONTACT</a>
+			</li>
+		</ul><span class="sliiider-exit exit left-exit">&#215</span>
+	</div>
+</div>
+<p class="korea">SIWOO REAL ESTATE</p>
+
+<div id="fullpage">
+	<div class="section section-two" id="section0">
+		<!-- <img src="images/introbg.png" class="introbg animated fadeOut" style="animation-delay:1.5s; animation-duration:2.5s"> -->
+		<h1 class="videotext vt1 animated fadeInLeft" style="animation-delay:0s; animation-duration:1.2s">시우부동산은<br></h1>
+		<h1 class="videotext vt2">좋은 집을</h1>
+		<h1 class="videotext vt3 animated fadeInRight" style="animation-delay:0s; animation-duration:1.2s">끝까지 찾아냅니다.</h1>
+		<h1 class="videotext vt4 animated fadeInLeft" style="animation-delay:0s; animation-duration:1.2s">02.999.5777</h1>
+		<video id="myVideo" loop="" muted="" data-autoplay="">
+			<source src="City%20-%203618.mp4" type="video/mp4">
+		</video>
+	</div>
+
+
+	<div class="section" id="section1">
+		<div class="slide slide1">
+			<div class="intro">
+				<h1 class="slidetext1">시우와 함께합니다. <br><span class="kokkao">"직방"</span></h1>
+				<!-- <p class="sllidetext1_1">모바일 메세징</p> -->
+			</div>
+		</div>
+		<div class="slide slide2">
+			<h1 class="slidetext1">시우와 함께합니다.<br><span class="naver">"네이버 부동산"</span></h1>
+			<!-- <p class="sllidetext1_1">인터넷 종합 컨텐츠 및 모바일 메세징</p> -->
+		</div>
+		<div class="slide slide3">
+			<h1 class="slidetext1">시우와 함께합니다.<br><span class="huuuge">"피터팬 좋은집 구하기"</span></h1>
+			<!-- <p class="sllidetext1_1">소셜 카지노 /인터넷 게임</p> -->
+		</div>
+		<div class="slide slide4">
+			<h1 class="slidetext1">시우와 함께합니다.<br><span class="implant">"다방" </span></h1>
+			<!-- <p class="sllidetext1_1">의료기기 회사</p> -->
+		</div>
+	</div>
+
+	<div class="section section-one" id="section2" style="display:table;">
+		<div class="intro intro1">
+			<div class="introinner">
+				<h2 class="section-one section3title">베풀 시(施) 집 우(宇) 부동산 
+				<p class="section-one section3text" style="color:#fff; font-weight:300;">
+				<br>	(전)유명 프랜차이즈 점포개발팀장<br>
+					(전)시우건축부동산 자산관리팀장<br> (현)시우건물관리 대표<br>
+					(현)시우부동산 대표</p>
+				<div class="counterbox">
+					<div id="count-test" class="demo"></div>
+					<div class="found">
+						<img src="images/icon1.png">
+						<p>주택매물<br>
+						<span class="nb1 counter">2400</span>개
+						</p>
+					</div>
+					<div class="found">
+						<img src="images/icon2.png">
+						<p>상가매물<br>
+						<span class="nb1 counter2">1209</span>개
+						</p>
+					</div>
+					<div class="found">
+						<img src="images/icon3.png">
+						
+						<p>관리건물<br>
+						<span class="nb1 counter3">30</span>개
+						</p>
+					</div>
+				</div>
+</h2></div>
+		  <p class="footer">시우공인중개사 사무소 ㅣ 대표: 고성용
+			  서울특별시 석관동 332-218 1층 시우공인중개사사무소 
+			  tel: 02.999.5777 l fax: 02.999.6555 ㅣe-mail: yongsensai1031@naver.com
+			  
+			  중개사무소 등록번호 : 11290-2021-00015
+			  사업자 등록번호 : 885-71-00129</p>
+		</div>
+	</div>
+</div>
+<script src="js/sliiide.js" type="text/javascript"></script>
+<script type="text/javascript">
+	var $navIcon = $('#nav-icon2')
+	var menu = $('.left-menu').sliiide({
+		place: 'left',
+		exit_selector: '.left-exit',
+		toggle: '#nav-icon2'
+	});
+	var notes = $('.note');
+	$('.slider-toggle').on('click', function() {
+		var $button = $(this);
+		if ($button.hasClass('selected')) {
+			return;
+		}
+		$navIcon.removeClass('flip animated');
+		notes.fadeOut(700);
+		var place = $button.attr('data-link').split('-')[0];
+		var menuPlace = $button.attr('data-link');
+		var note;
+		menu.reset();
+		$button.addClass('selected');
+		$('.slider-toggle').not($button).removeClass('selected');
+		menu = $('.' + menuPlace).sliiide({
+			place: place,
+			exit_selector: '.' + place + '-exit',
+			toggle: '#nav-icon2'
+		});
+		$navIcon.addClass('flip');
+		$('.note[data-link="' + menuPlace + '"]').fadeIn(700).css('display', '').removeClass('display-off');
+	})
+
+	$(function(){
+		$('#nav-icon2').click(function(){
+			$(".menubox").css("left","300px");
+			$(".senav").css("left","300px");
+			$(".senav").css("z-index","9999");
+			$(".menubox").css("transition","0.6s");
+			$(".left-menu").css("transition","0.6s");
+			$("#nav-icon2").css("display","none");
+			$("#nav-icon3").css("display","inline");
+		//   $(".senav").css("transition-duration","0.5s");
+			$(".left-menu").css("animation_curve","cubic-bezier(0.54, 0.01, 0.57, 1.03)");
+		});
+
+		$('.left-exit').click(function(){
+			$(".menubox").css("left","0");
+			$(".senav").css("left","-300px")
+			$(".menubox").css("transition","0.6s");
+			$(".left-menu").css("transition","0.6s");
+			$(".menubox").css("animation_curve","cubic-bezier(0.54, 0.01, 0.57, 1.03)");
+		});
+
+		$('#nav-icon3').click(function(){
+			$(".menubox").css("left","0");
+			$(".senav").css("left","-300px")
+			$(".menubox").css("transition","0.6s");
+			$(".left-menu").css("transition","0.6s");
+			$("#nav-icon2").css("display","inline");
+			$("#nav-icon3").css("display","none");
+			$(".menubox").css("animation_curve","cubic-bezier(0.54, 0.01, 0.57, 1.03)");
+		});
+	});
+	//
+	// $(document).ready(function() {
+	//   $(".left-menu").hide();
+	//   //클릭이 실행되기 전에 aaa 클래스를 가진 div를 숨김.
+	//   $(".menubox").click(function() //qqq 클래스에 클릭이벤트가 발생하면
+	//   {
+	//     $(".left-menu").toggle(); //aaa클래스를 숨김/활성화
+	// 		 $(".menubox").css("left","300px");
+	//  		  $(".menubox").css("transition","0.6s");
+	//  		  $(".left-menu").css("transition","0.6s");
+	// 		  //  $(".senav").css("transition-duration","0.5s");
+	// 		  //  $(".left-menu").css("animation_curve","cubic-bezier(0.54, 0.01, 0.57, 1.03)");
+	//   });
+	// });
+
+</script>
+<script type="text/javascript" src="js/jQuerySimpleCounter.js"></script>
+<script type="text/javascript" src="js/jQuerySimpleCounter2.js"></script>
+<script type="text/javascript" src="js/jQuerySimpleCounter3.js"></script>
+<script type="text/javascript">
+	$('.counter').jQuerySimpleCounter({
+		start: 0,
+		end: 1986,
+		duration: 4000
+	});
+	$('.counter2').jQuerySimpleCounter2({
+		start: 0,
+		end: 88,
+		duration: 4000
+	});
+	$('.counter3').jQuerySimpleCounter3({
+		start: 0,
+		end: 600,
+		duration: 4000
+	});
+</script>
+
+</body>
+</html>
