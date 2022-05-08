@@ -296,7 +296,7 @@ a {
       text-shadow: 1px 1px 1px #333;
    }
    .section3title {
-      font-size: 1.2em;
+      font-size: 1.4em;
       font-weight: bold;
       line-height: 1.3em;
       margin-bottom: 20px;
@@ -306,7 +306,7 @@ a {
       width: 90%;
    }
    .section3text{
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     font-size: 0.8em;
@@ -406,11 +406,11 @@ a {
       display: none;
    }
    .logo2 {
-      float: left;
-   	top: 0;
-   	left: 0;
-   	z-index: 99;
-      width: 60px;
+    float: left;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100px;
    }
    .korea {
       position: fixed;
